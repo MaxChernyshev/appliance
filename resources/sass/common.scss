@@ -1,0 +1,79 @@
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0f123f;
+}
+
+body {
+  font-family: 'Proxima Nova';
+  font-size: 1rem;
+  font-weight: 400;
+  color: $grey;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.btn {
+  box-shadow: none !important;
+}
+
+.title {
+  color: $dark-blue;
+  font-size: 2.25rem;
+  font-weight: 700;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav-toogle {
+  font-size: 25px;
+}
+
+amp-sidebar {
+  padding: 20px;
+  width:20%;
+  background-color: white;
+  color: #2b317e;
+}
+
+@media(max-width:767px) {
+  amp-sidebar {
+    width: 100%;
+  }
+}
+
+.acc-header {
+  font-size:1rem;
+  font-weight:600;
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+}
+
+.acc-content {
+  padding: 15px;
+  font-weight:600;
+}
+
+amp-accordion a {
+  color: #2b317e;
+  text-decoration: none;
+}
+
+.navbar-block {
+  display: flex;
+  align-items: center;
+}

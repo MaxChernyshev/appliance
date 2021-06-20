@@ -1,0 +1,32 @@
+.advantages {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #fff;
+
+  &-item {
+    img {
+      width: 70px;
+      height: 70px;
+    }
+
+    p {
+      margin-top: 32px;
+    }
+  }
+
+  .subtitle {
+    font-size: 0.875rem;
+    max-width: 400px;
+    margin: 8px auto 64px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    padding: 100px 0 60px;
+
+    &-item {
+      margin-bottom: 24px;
+    }
+  }
+}

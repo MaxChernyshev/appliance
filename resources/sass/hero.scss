@@ -1,0 +1,23 @@
+.hero {
+  text-align: center;
+  display: flex;
+  padding: 180px 0 100px;
+  align-items: center;
+  background-blend-mode: multiply;
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero {
+
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}

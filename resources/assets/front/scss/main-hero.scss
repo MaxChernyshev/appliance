@@ -1,0 +1,31 @@
+.main-hero {
+  display: flex;
+  padding: 180px 0 100px;
+  align-items: center;
+  background: rgba(54, 54, 54, .5) url("/assets/front/images/hero-image.webp") no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+
+  h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .main-hero {
+    padding: 280px 0 200px;
+
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
