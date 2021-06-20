@@ -69,6 +69,8 @@ Route::group(['prefix' => 'amp',],
 );
 
 
+
+
 // Admin panel
 Route::group([
     'prefix' => 'admin',
