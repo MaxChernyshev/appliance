@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
-                        <h1>Locations we work in</h1>
+                        <h1>Locations we work in Привет</h1>
                     </div>
                 </div>
             </div>
