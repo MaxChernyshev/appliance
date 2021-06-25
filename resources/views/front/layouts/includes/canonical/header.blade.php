@@ -6,8 +6,7 @@
     <meta name="description" content="{{ $location->seo_description ?? 'Our company «Appliance Repairmen» provides quality, all-inclusive, professional 24-hour overhaul. Repair of domestic and commercial appliances on the same day near you.' }}">
     <title>{{ $location->seo_title ?? 'Household appliance repair | Appliance repairs at your home | Certified small repair of appliances' }}</title>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/template.css') }}">
-
+    @yield('styles')
 </head>
 <body>
 
@@ -50,11 +49,11 @@
                     <a class="nav-link dropdown-toggle" href="{{ route('brand') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Brands
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu custom-overflow" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Amana Appliance Repair Service
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu custom-overflow" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Amana Dishwasher Repair Los Angeles</a>
                         </div>
                     </div>

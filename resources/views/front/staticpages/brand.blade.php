@@ -2,7 +2,9 @@
 
 @section('header')
 @endsection
-
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('css/brand.css') }}" media="screen" defer>
+@endsection
 @section('content')
     <!-- HERO -->
     <section class="hero" style="background:rgba(54, 54, 54, .5) url('/assets/front/images/hero-image.webp') no-repeat center center / cover;">

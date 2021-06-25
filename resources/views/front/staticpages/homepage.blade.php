@@ -2,7 +2,9 @@
 
 @section('header')
 @endsection
-
+@section('styles')
+    <link rel="stylesheet" href="{{ asset('css/homepage.css') }}" media="screen" defer>
+@endsection
 @section('content')
     <main>
 

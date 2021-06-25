@@ -13,6 +13,10 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/location.scss', 'public/css')
+    .sass('resources/sass/service.scss', 'public/css')
+    .sass('resources/sass/brand.scss', 'public/css')
+    .sass('resources/sass/homepage.scss', 'public/css')
     .sourceMaps();
 
 mix.styles([

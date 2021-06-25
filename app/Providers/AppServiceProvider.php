@@ -31,14 +31,14 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('front.layouts.includes.*', function ($view)
         {
             $view->with([
-                'locations' => Location::get(),
+                'locations' => Location::get(['title', 'slug']),
             ]);
         }
         );
         view()->composer('front.layouts.includes.*', function ($view)
         {
             $view->with([
-                'services' => Service::get(),
+                'services' => Service::get(['title', 'slug']),
             ]);
         }
         );

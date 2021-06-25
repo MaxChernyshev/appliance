@@ -49,6 +49,8 @@ header {
         .dropdown-menu {
           border: 0;
           text-align: center;
+          overflow-y: scroll;
+          max-height: 450px;
           .dropdown-item {
             color: $dark-blue;
             font-weight: 600;
@@ -57,6 +59,10 @@ header {
               background-color: #fff;
             }
           }
+        }
+
+        .custom-overflow {
+          overflow-y: visible;
         }
       } 
     }

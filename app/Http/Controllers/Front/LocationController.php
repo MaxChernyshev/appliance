@@ -10,7 +10,7 @@ class LocationController extends Controller
 {
     public function index()
     {
-        $locations = Location::all();
+      $locations = Location::all(['title', 'slug']);
 
         return view('front.locations.locations', compact('locations'));
     }
@@ -26,7 +26,7 @@ class LocationController extends Controller
 
     public function indexAmp()
     {
-        $locations = Location::all();
+        $locations = Location::all(['title', 'slug']);
 
         return view('front.locations.locations-amp', compact('locations'));
     }

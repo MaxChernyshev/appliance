@@ -1,0 +1,261 @@
+.hero {
+  text-align: center;
+  display: flex;
+  padding: 180px 0 100px;
+  align-items: center;
+  background-blend-mode: multiply;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1600px) {
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+}
+.services {
+  padding: 100px 0 70px;
+  background-color: #fff;
+}
+.services-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.services-info p {
+  line-height: 1.6;
+}
+.services-item {
+  margin: 8px 0;
+  padding: 48px 24px 32px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+}
+.services-item:hover {
+  box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.13);
+}
+.services-item img {
+  height: 55px;
+  width: 55px;
+}
+.services-item p {
+  color: #2b317e;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.services hr {
+  margin: 8px 0 22px;
+  width: 100%;
+  border: 1px solid #dee2e6;
+}
+.services h4 {
+  color: #2b317e;
+  font-weight: 700;
+  line-height: 1.4;
+  max-width: 550px;
+  margin: 24px 0 32px;
+}
+.services .title {
+  margin-bottom: 16px;
+}
+
+.brand-services {
+  padding: 70px 0 0;
+  background-color: #fff;
+}
+.brand-services-item {
+  margin: 8px 0;
+  padding: 48px 24px 32px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: all linear 0.2s;
+}
+.brand-services-item:hover {
+  box-shadow: 0 0 13px 2px rgba(0, 0, 0, 0.13);
+}
+.brand-services-item img {
+  height: 55px;
+  width: 55px;
+}
+.brand-services-item a {
+  display: flex;
+  color: #2b317e;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 8px;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+.brand-services-item a:hover {
+  color: #007bff;
+}
+
+.article {
+  display: flex;
+  padding: 80px 0 100px;
+  align-items: center;
+  background-color: #fff;
+}
+.article-item {
+  align-items: center;
+}
+.article-item-list {
+  display: flex;
+  flex-direction: column;
+}
+.article-item-list a {
+  line-height: 1.7;
+  font-weight: 600;
+  color: #2b317e;
+  text-decoration: none;
+  transition: all 0.1s linear;
+}
+.article-item-list a:hover {
+  color: #007bff;
+}
+.article img {
+  width: 100%;
+  margin: 20px 0;
+}
+.article h2 {
+  padding: 24px 0;
+  color: #2b317e;
+}
+.article h3, .article h5, .article h6 {
+  color: #2b317e;
+  font-weight: 700;
+}
+
+.article h5 {
+  font-size: 1.25rem;
+}
+
+.article h6 {
+  font-size: 1rem;
+}
+
+.locations {
+  padding: 80px 0 100px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.locations h3, .locations h4 {
+  color: #2b317e;
+  font-weight: 700;
+  margin: 40px 0 16px;
+}
+
+.testimonials {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+.testimonials .title {
+  text-align: center;
+  margin-bottom: 54px;
+}
+.testimonials-item {
+  padding: 20px 20px 5px;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+}
+.testimonials-item .headline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials-item .headline h6 {
+  color: #2b317e;
+  font-weight: 700;
+  margin: 0;
+}
+.testimonials-item .headline img {
+  width: 40px;
+  height: 40px;
+}
+.testimonials-item p {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 100px 0 60px;
+  }
+  .testimonials-item {
+    margin-bottom: 24px;
+  }
+}
+.appointment {
+  padding: 120px 0;
+  text-align: center;
+  background: rgba(54, 54, 54, 0.7) url(/assets/front/images/booking-image.jpeg) no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+.appointment h2 {
+  color: #fff;
+  margin-bottom: 80px;
+}
+.appointment h4 {
+  color: #fff;
+  margin: 24px 0;
+  font-weight: 600;
+}
+.appointment img {
+  width: 100%;
+}
+.appointment .order-form {
+  border-radius: 5px;
+  padding: 32px 20px;
+  background-color: #fff;
+}
+.appointment .order-form legend {
+  color: #2b317e;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.appointment .order-form p {
+  color: #2b317e;
+  text-align: start;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 10px 0 8px 1px;
+}
+.appointment .order-form i {
+  color: red;
+}
+.appointment .order-form .form-check {
+  margin: 0px 8px 5px 5px;
+}
+.appointment .order-form .agreement {
+  text-align: left;
+  font-size: 0.875rem;
+  align-items: flex-start;
+}
+.appointment .order-form .agreement input {
+  margin-top: 5px;
+  margin-right: 8px;
+}
+.appointment .order-form-btn {
+  padding: 16px 40px;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .order-form {
+    margin-bottom: 40px;
+  }
+}
