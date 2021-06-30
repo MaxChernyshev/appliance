@@ -24,11 +24,21 @@
         </div>
         <p>Date & Time<i>*</i></p>
         <div class="form-row">
+          <div class="col form-group">
+              <input class="form-control" type="date">
+          </div>
             <div class="col form-group">
-                <input class="form-control" type="date">
-            </div>
-            <div class="col form-group">
-                <input class="form-control" type="time">
+              <select class="form-control" id="inputTime" name="time" required>
+                <option value="8AM - 10AM">8AM - 10AM</option>
+                <option value="9AM - 11AM">9AM - 11AM</option>
+                <option value="10AM - 12PM">10AM - 12PM</option>
+                <option value="11AM - 1PM">11AM - 1PM</option>
+                <option value="12PM - 2PM">12PM - 2PM</option>
+                <option value="1PM - 3PM">1PM - 3PM</option>
+                <option value="2PM - 4PM">2PM - 4PM</option>
+                <option value="3PM - 5PM">3PM - 5PM</option>
+                <option value="4PM - 6PM">4PM - 6PM</option>
+              </select>
             </div>
         </div>
         <p>Service Type<i>*</i></p>

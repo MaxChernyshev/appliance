@@ -37,7 +37,7 @@
         </a>
         <div class="navbar-block">
             <a class="navbar-phone" href="tel:(855) 399-9888">(855) 399-9888</a>
-            <a href="#" class="btn btn-outline-primary navbar-book">Book a Service</a>
+            <a href="#book" class="btn btn-outline-primary navbar-book">Book a Service</a>
             <div role="button" on="tap:sidebar.toggle" tabindex="0" class="hamburger nav-toogle">☰</div>
         </div>
     </nav>

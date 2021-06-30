@@ -159,7 +159,7 @@
         </section>
 
         <!-- FORM -->
-        <section class="appointment">
+        <section class="appointment" id="book">
             <div class="container">
                 <h2 class="title">Request Service</h2>
                 <div class="row">

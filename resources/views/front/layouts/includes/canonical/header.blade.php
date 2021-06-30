@@ -76,7 +76,7 @@
         </div>
         <div>
             <a class="navbar-phone" href="tel:(855) 399-9888">(855) 399-9888</a>
-            <a href="#" class="btn btn-outline-primary navbar-book" type="button">Book a Service</a>
+            <a href="#book" class="btn btn-outline-primary navbar-book" type="button">Book a Service</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
